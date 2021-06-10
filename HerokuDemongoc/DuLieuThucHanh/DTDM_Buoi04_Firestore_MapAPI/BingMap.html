@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#myMap {
+				position: relative;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		<meta charset="utf-8" />
+		<script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Ao3uCCb7BmpBAczhq_fcqPOcvITip-wlTckG_Y8sET4ZckZ1Uh5UT9b8veBfIDiE' async defer></script>
+		<script>
+			function GetMap()
+			{
+				var map = new Microsoft.Maps.Map('#myMap');
+			}
+		</script>
+	</head>
+	<body>
+		<div id="myMap"></div>
+	</body>
+</html>
