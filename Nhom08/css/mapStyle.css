@@ -1,0 +1,236 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+.search-bar{
+	width:70%;
+	margin:0 auto;
+	padding-top: 20px;
+	margin-top: 30px;
+	display:flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+.search-barChiDuong{
+	width:80%;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.Control_ChiDuong{
+	margin-top: 10px;
+}
+
+#btnTimDuong{
+	position: relative;
+	left: 80px;
+}
+
+.fTtDuongDi{
+	border: 1px solid #ecf0f1;
+	border-radius: 20px;
+	margin: auto;
+	width: 80%;
+}
+#tTDuongDi{
+	width: 80%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: azure;
+}
+
+#output{
+	width: 80%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: azure;
+}
+
+#btnLocation{
+	position: relative;
+	left: 80px;
+	top: -15px;
+}
+
+.ttDiaDiem{
+	margin: auto;
+	margin-top: 30px;
+	width: 360px;
+	border: solid #ecf0f1;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#titDiaDiem{
+	text-align: center;
+	color: #ecf0f1;
+}
+
+
+.lbTemp,.vlTemp{
+	font-size: 10px;
+}
+.event{
+	width:70%;
+	margin: auto;
+	padding-top: 20px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#iconFrmMap{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 0;
+}
+
+#btnLocation,#btnChiDuong{
+	width: 130px;
+}
+
+.info-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:30vh;
+	padding: 80px 50px;
+}
+
+
+.city-name{
+	font-size: 20px;
+	margin: 3px;
+}
+
+.weather-state{
+	font-size: 13px;
+}
+
+.weather-icon{
+	width: 70px;
+	height: 70px;
+}
+
+.temperature{
+	font-size: 80px;
+	font-weight: lighter;
+	line-height: 1;
+	position: relative;
+}
+
+.temperature::after{
+	content: 'o';
+	position: absolute;
+	font-size: 30px;
+}
+.additional-section{
+	width: 390px;
+	border-top: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 20px;
+	font-size: 13px;
+}
+.additional-section .row{
+	margin-bottom: 5px;
+	display: flex;
+	margin-left: 30px;
+}
+.additional-section .item{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.additional-section .item .label {
+    font-weight: bold;
+}
+
+.fmap{
+	margin: auto;
+	margin-top: 5%;
+	width: 900px;
+}
+
+#map {
+	height: 1000px;
+	width: 800px;
+	margin: auto;
+}
+
+.btn-close{
+	width: 20px;
+	height: 20px;
+}
+
+  /* Optional: Makes the sample page fill the window. */
+/* Setting sidebar info map */
+#sidebar{
+	position: fixed;
+	top: 6%;
+	width: 400px;
+	height: 100%;
+	background: linear-gradient(140deg,#2193b0,#6dd5ed);
+	left: -400px;
+	transition: .4s;
+	z-index: 1000px;
+	box-shadow: 5px 10px #b8b6b6;
+}
+
+
+#sidebar.active{
+	left: 0;
+}
+
+#sidebar .toggle-btn{
+	position: absolute;
+	top: 10px;
+	left: 410px;
+	cursor: pointer;
+}
+
+/* btn Chỉ đường */
+#sidebarChiDuong{
+	position: fixed;
+	top: 7%;
+	width: 400px;
+	height: 100%;
+	background: linear-gradient(165deg,#72e9b1,#25474e);
+	right: -400px;
+	transition: .4s;
+	z-index: 1000px;
+	box-shadow: 5px 10px #b8b6b6;
+}
+
+#sidebarChiDuong.active{
+	right: 0;
+}
+
+#sidebarChiDuong .toggle-btnChiDuong{
+	position: absolute;
+	top: 10px;
+	right: 410px;
+	cursor: pointer;
+}
+
+#titChiDuong{
+	text-align: center;
+	margin-top: 50px;
+	color: rgb(245, 22, 14);
+}
+
+#btnLocation{
+	margin-top: 30px;
+}
+/* phân vùng co wheather */
+.wheatherInfo{
+	margin-top: 100px;
+}

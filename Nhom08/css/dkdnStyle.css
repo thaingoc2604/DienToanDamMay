@@ -1,0 +1,53 @@
+:root{
+    --bg1: #9b59b6;
+    --bg2: #3498db;
+    --text: #26ade4;
+}   
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background:linear-gradient(to bottom right,var(--bg1),var(--bg2));
+        background-repeat: no-repeat;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 900px;
+        transition: 0.5s;
+    }
+    .container{
+        width: 30%;
+        height: 70%;
+        background: #fff;
+        border-radius: 20px;            
+        padding: 40px 30px;
+    }
+    .container h1 {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .in{
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .in input{
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+    .in label{
+        position: absolute;
+        left: 12px;
+        transition: 0.5s;
+    }
+    .in label.focus{
+        transform: translateY(-27px) ;
+    }

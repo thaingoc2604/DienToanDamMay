@@ -1,0 +1,107 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(90deg,#2ecc71,#3498db);
+}
+
+.intro{
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  color: azure;
+}
+
+.intro h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.intro p{
+  font-size: 20px;
+}
+
+.imgDoiNgu{
+  height: 400px;
+  width: 530px;
+  position: absolute;
+  top: 300px;
+  left: 70%;
+  
+}
+
+.imgDoiNgu img{
+  height: 400px;
+  width: 530px;
+  border: 1px solid #2ecc71;
+  border-radius: 100px;
+}
+
+.btnDKDN{
+  position: absolute;
+  top: 550px;
+  left: 300px;
+}
+
+.btnDKDN button{
+  width: 200px;
+  padding: 15px 0;
+  margin: 20px 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.btnDKDN button span{
+  background: #009688;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btnDKDN button:hover span{
+  width: 100%;
+}
+
+.btnDKDN button:hover{
+  border: none;
+  background: #3498db;
+}
+
+
+footer{
+  position: absolute;
+  bottom: -1px;
+  height: 10%;
+  width: 100%;
+}
+
+
+.infoDoiNgu h5{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.infoDoiNgu{
+  color: azure;
+  height: 500px;
+  font-size: 20px;
+  position: absolute;
+  left: 200px;
+  top: -150px;
+}
